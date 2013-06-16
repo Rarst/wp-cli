@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6cae44632851e1e1cee580631b2d784a",
+    "hash": "e8fbeb12a42cc9571b9b7c941f2c66c1",
     "packages": [
         {
             "name": "mustache/mustache",
@@ -46,6 +46,47 @@
                 "templating"
             ],
             "time": "2013-04-25 15:23:30"
+        },
+        {
+            "name": "nb/oxymel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nb/oxymel.git",
+                "reference": "cbe626ef55d5c4cc9b5e6e3904b395861ea76e3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nb/oxymel/zipball/cbe626ef55d5c4cc9b5e6e3904b395861ea76e3c",
+                "reference": "cbe626ef55d5c4cc9b5e6e3904b395861ea76e3c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Oxymel": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Bachiyski",
+                    "email": "nb@nikolay.bg",
+                    "homepage": "http://extrapolate.me/"
+                }
+            ],
+            "description": "A sweet XML builder",
+            "homepage": "https://github.com/nb/oxymel",
+            "keywords": [
+                "xml"
+            ],
+            "time": "2013-02-24 15:01:54"
         },
         {
             "name": "wp-cli/php-cli-tools",
@@ -992,7 +1033,8 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-cli/php-cli-tools": 20
+        "wp-cli/php-cli-tools": 20,
+        "nb/oxymel": 20
     },
     "platform": {
         "php": ">=5.3.2"
